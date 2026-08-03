@@ -24,8 +24,6 @@ It includes:
 
 - Secure CI/CD Pipeline
 - Azure Cloud Deployment
-- Azure Kubernetes Service (AKS)
-- Infrastructure as Code (Terraform)
 - Docker & Kubernetes Security
 - Automated Security Scanning
 - Monitoring & Observability
