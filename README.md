@@ -42,32 +42,32 @@ It includes:
 
 ## 🔑 Jenkins Dashboard
 
-![Jenkins](./output/jenkins/SecureCICD.png)
+![Jenkins](./Output/jenkins/SecureCICD.png)
 
 ---
 
 ## 🛡️ SonarQube Dashboard
 
-![SonarQube](./output/security/SonarQube.png)
+![SonarQube](./Output/security/SonarQube.png)
 
 ---
 
 
 ## 🔍 Trivy Report
 
-![Trivy](./output/security/TrivyFrontendreport.png)
+![Trivy](./Output/security/TrivyFrontendreport.png)
 
 ---
 
 ## 📈 Grafana Dashboard
 
-![Grafana](./output/monitoring/Node.jsSystemMetrics.png)
+![Grafana](./Output/monitoring/Node.jsSystemMetrics.png)
 
 ---
 
 ## 💻 Promethus Dashboard
 
-![Promethus](./output/monitoring/Prometheus.png)
+![Promethus](./Output/monitoring/Prometheus.png)
 
 ---
 
