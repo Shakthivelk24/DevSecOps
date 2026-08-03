@@ -4,10 +4,13 @@
 
 ![Azure](https://img.shields.io/badge/Cloud-Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![DevSecOps](https://img.shields.io/badge/DevSecOps-Security-red?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-In%20Progress-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 A comprehensive documentation repository for implementing **DevSecOps practices on Microsoft Azure**, covering secure CI/CD pipelines, container security, Kubernetes, Infrastructure as Code, and cloud-native security best practices.
+
+### 🔗 Project Repository
+**https://github.com/Shakthivelk24/Request-System-DevSecOps**
 
 </div>
 
@@ -46,7 +49,6 @@ It includes:
 | Infrastructure as Code | Terraform |
 | Monitoring | Prometheus |
 | Visualization | Grafana |
-
 
 ---
 
@@ -132,5 +134,8 @@ This project is licensed under the MIT License.
 <div align="center">
 
 ⭐ If you find this repository useful, consider giving it a star!
+
+### 🚀 Project Repository
+https://github.com/Shakthivelk24/Request-System-DevSecOps
 
 </div>
