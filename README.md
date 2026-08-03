@@ -38,6 +38,41 @@ It includes:
 
 ---
 
+# 📸 Screenshots
+
+## 🔑 Jenkins Dashboard
+
+![Jenkins](./output/Jenkins%20Pipeline/Secure%20CICD.png)
+
+---
+
+## 🛡️ SonarQube Dashboard
+
+![SonarQube](./output/Security%20Report(SonarQube,TrivyAndowasp-zap)/SonarQube.png)
+
+---
+
+
+## 🔍 Trivy Report
+
+![Trivy](./output/Security%20Report(SonarQube,TrivyAndowasp-zap)/Trivy%20Backend%20report.png)
+
+---
+
+## 📈 Grafana Dashboard
+
+![Grafana](./output/Monitor(PromethusAndGrafana)/Node.js%20System%20Metrics.png)
+
+---
+
+## 💻 Promethus Dashboard
+
+![Promethus](./output/Monitor(PromethusAndGrafana)/Prometheus.png)
+
+---
+
+
+
 # 🛠️ Technology Stack
 
 | Category | Technology |
@@ -116,11 +151,16 @@ It includes:
               Grafana Dashboard
 ```
 
+
 ---
 
 # 🎯 Objectives
 
 - Learn DevSecOps concepts
+- To design and implement a secure CI/CD pipeline 
+- To identify and mitigate vulnerabilities at early stages of development 
+- To reduce security risks and remediation costs 
+- To ensure faster and secure software delivery 
 - Build a secure CI/CD pipeline
 - Deploy applications on Microsoft Azure
 - Deploy applications on Kubernetes
