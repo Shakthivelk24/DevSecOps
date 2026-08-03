@@ -7,9 +7,10 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-A comprehensive documentation repository for implementing **DevSecOps practices on Microsoft Azure**, covering secure CI/CD pipelines, container security, Kubernetes, Infrastructure as Code, and cloud-native security best practices.
+A comprehensive documentation repository for implementing a **Secure DevSecOps CI/CD Pipeline on Microsoft Azure**, covering secure application deployment, automated code quality analysis, container security, Kubernetes, monitoring, and cloud deployment.
 
 ### 🔗 Project Repository
+
 **https://github.com/Shakthivelk24/Request-System-DevSecOps**
 
 </div>
@@ -18,16 +19,22 @@ A comprehensive documentation repository for implementing **DevSecOps practices 
 
 # 📖 About
 
-This repository provides end-to-end documentation for building secure DevSecOps workflows using **Microsoft Azure** and modern DevOps tools.
+This repository documents the implementation of a secure DevSecOps pipeline using **Microsoft Azure** and modern DevOps tools.
+
+The documentation covers the complete workflow from source code management to deployment, container orchestration, security scanning, and monitoring.
 
 It includes:
 
-- Secure CI/CD Pipeline
-- Azure Cloud Deployment
-- Docker & Kubernetes Security
-- Automated Security Scanning
-- Monitoring & Observability
-- DevSecOps Best Practices
+- Secure CI/CD Pipeline using Jenkins
+- Microsoft Azure Virtual Machine Deployment
+- Docker Containerization
+- Kubernetes Deployment (Local Cluster)
+- SonarQube Code Quality Analysis
+- Trivy Container Image Vulnerability Scanning
+- Docker Hub Image Publishing
+- Docker Compose Deployment
+- Monitoring with Prometheus
+- Visualization with Grafana
 
 ---
 
@@ -35,16 +42,16 @@ It includes:
 
 | Category | Technology |
 |------------|------------|
-| Cloud Platform | Microsoft Azure |
+| Cloud Platform | Microsoft Azure Virtual Machine |
 | Version Control | Git, GitHub |
 | CI/CD | Jenkins |
 | Build Tool | NPM |
 | Code Quality | SonarQube |
 | Vulnerability Scanner | Trivy |
-| Dynamic Security Testing | OWASP ZAP |
 | Containerization | Docker |
-| Orchestration | Kubernetes (AKS) |
-| Infrastructure as Code | Terraform |
+| Container Orchestration | Kubernetes (Local Cluster) |
+| Container Registry | Docker Hub |
+| Deployment | Docker Compose |
 | Monitoring | Prometheus |
 | Visualization | Grafana |
 
@@ -53,52 +60,60 @@ It includes:
 # 🚀 Topics Covered
 
 - DevSecOps Fundamentals
-- Secure Software Development Lifecycle (SSDLC)
-- Microsoft Azure Services
-- Azure Kubernetes Service (AKS)
-- Jenkins CI/CD Pipeline
 - Git & GitHub Integration
-- SonarQube Code Analysis
-- Trivy Vulnerability Scanning
-- OWASP ZAP Dynamic Security Testing
-- Docker Security Best Practices
-- Kubernetes Security
-- Terraform Infrastructure as Code
-- Secrets Management
-- Monitoring with Prometheus & Grafana
+- Jenkins CI/CD Pipeline
+- NPM Build Automation
+- SonarQube Static Code Analysis
+- Trivy Container Image Vulnerability Scanning
+- Docker Image Creation
+- Docker Hub Integration
+- Docker Compose Deployment
+- Kubernetes Deployment (Local Cluster)
+- Prometheus Monitoring
+- Grafana Dashboards
+- Secure DevSecOps Best Practices
 
 ---
 
-# 🔄 Azure DevSecOps Workflow
+# 🔄 DevSecOps Workflow
 
 ```text
-Developer
-      │
-      ▼
-GitHub Repository
-      │
-      ▼
-Jenkins Pipeline
-      │
-      ├── Build
-      ├── Unit Test
-      ├── SonarQube Scan
-      ├── Trivy Scan
-      ├── OWASP ZAP Scan
-      ├── Docker Build
-      └── Push Image
-      │
-      ▼
-Azure Kubernetes Service (AKS)
-      │
-      ▼
-Application Deployment
-      │
-      ▼
-Prometheus Monitoring
-      │
-      ▼
-Grafana Dashboard
+                      Developer
+                          │
+                          ▼
+                  GitHub Repository
+                          │
+                          ▼
+                  Jenkins Pipeline
+                          │
+        ┌─────────────────┼──────────────────┐
+        │                 │                  │
+        ▼                 ▼                  ▼
+ Install Dependencies  Unit Tests   SonarQube Analysis
+        │
+        ▼
+   Trivy Image Scan
+        │
+        ▼
+ Docker Image Build
+        │
+        ▼
+ Push Image to Docker Hub
+        │
+        ├──────────────────────────────┐
+        ▼                              ▼
+ Docker Compose                 Kubernetes
+ (Azure Virtual Machine)       (Local Cluster)
+        │                              │
+        └──────────────┬───────────────┘
+                       ▼
+             Running Application
+                       │
+                       ▼
+            Prometheus Monitoring
+                       │
+                       ▼
+              Grafana Dashboard
 ```
 
 ---
@@ -106,26 +121,70 @@ Grafana Dashboard
 # 🎯 Objectives
 
 - Learn DevSecOps concepts
-- Build secure CI/CD pipelines
+- Build a secure CI/CD pipeline
 - Deploy applications on Microsoft Azure
-- Secure Docker containers
-- Implement Kubernetes security
-- Automate vulnerability scanning
-- Monitor applications in production
+- Deploy applications on Kubernetes
+- Automate code quality analysis
+- Perform container vulnerability scanning
+- Build and publish Docker images
+- Monitor deployed applications
+- Understand production-ready DevSecOps workflows
+
+---
+
+
+# 📚 Documentation Includes
+
+
+- Jenkins Installation & Configuration
+- GitHub Integration
+- Docker Installation
+- Docker Compose Deployment
+- Kubernetes Deployment
+- SonarQube Installation & Configuration
+- Trivy Installation & Image Scanning
+- Docker Hub Integration
+- Prometheus Installation
+- Grafana Dashboard Configuration
+- Complete CI/CD Pipeline Setup
+- Best Practices and Troubleshooting
+
+---
+
+# 🎓 Learning Outcomes
+
+After following this documentation, you will understand how to:
+
+- Configure a secure DevSecOps environment
+- Build automated CI/CD pipelines
+- Deploy applications using Docker Compose
+- Deploy containerized applications on Kubernetes
+- Perform static code analysis with SonarQube
+- Scan Docker images using Trivy
+- Publish Docker images to Docker Hub
+- Deploy applications on Microsoft Azure Virtual Machines
+- Monitor applications using Prometheus
+- Visualize metrics using Grafana
 
 ---
 
 # 🤝 Contributing
 
-Contributions are welcome.
+Contributions are welcome!
 
-Feel free to improve documentation, add tutorials, fix issues, or share best practices.
+Feel free to:
+
+- Improve documentation
+- Add new tutorials
+- Fix issues
+- Share DevSecOps best practices
+- Enhance Azure deployment guides
 
 ---
 
 # 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 ---
 
@@ -134,6 +193,9 @@ This project is licensed under the MIT License.
 ⭐ If you find this repository useful, consider giving it a star!
 
 ### 🚀 Project Repository
-https://github.com/Shakthivelk24/Request-System-DevSecOps
+
+**https://github.com/Shakthivelk24/Request-System-DevSecOps**
+
+Made with ❤️ by **Shakthi Vel K**
 
 </div>
